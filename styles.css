@@ -33,16 +33,43 @@ span {
   padding: 1em;
   border: 5px solid purple;
   width: 30em;
+  display: inline-block;
 }
 
 #box1 {
   background-color: rgb(130, 110, 92);
+  border-radius: 15px 80px;
 }
 
 #box2 {
   background-color: darkolivegreen;
+  border-radius: 80px 15px;
+  position: relative;
 }
 
-#boxN {
+#box3 {
   background-color: lightblue;
+  border-radius: 15px 80px;
+}
+
+#box4 {
+  background-color: rgb(180, 79, 12);
+  border-radius: 80px 15px;
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+  display: block;
+}
+
+.rep-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: burlywood;
+  position: relative;
+  top: 65px;
+  left: 45px;
 }
