@@ -73,3 +73,51 @@ span {
   top: 65px;
   left: 45px;
 }
+
+h1 {
+    color: olive;
+}
+
+.original {
+    color: purple;
+
+}
+
+.additional {
+    color: brown;
+}
+
+#show1{
+    color: orange
+}
+#show2{
+    color: blue
+}
+#show3{
+    color: fuchsia
+}
+#show4{
+    color: burlywood
+}
+#show5{
+    color: mediumaquamarine
+}
+
+ul {
+    color: chocolate;
+    
+}
+
+.star {
+    color: cadetblue;
+}
+
+#wars {
+    color: cornflowerblue;
+
+}
+
+div {
+    border: 2px solid black;
+}
+
