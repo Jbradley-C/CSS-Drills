@@ -26,6 +26,7 @@ span {
 }
 
 .boxes {
+  position: relative;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20pt;
@@ -39,22 +40,25 @@ span {
 #box1 {
   background-color: rgb(130, 110, 92);
   border-radius: 15px 80px;
+  
 }
 
 #box2 {
   background-color: darkolivegreen;
   border-radius: 80px 15px;
-  position: relative;
+  
 }
 
 #box3 {
   background-color: lightblue;
   border-radius: 15px 80px;
+  
 }
 
 #box4 {
   background-color: rgb(180, 79, 12);
   border-radius: 80px 15px;
+  
 }
 
 #box1,
@@ -69,9 +73,9 @@ span {
   width: 50px;
   border-radius: 50px;
   background-color: burlywood;
-  position: relative;
-  top: 65px;
-  left: 45px;
+  position: absolute;
+  top: 40px;
+  left: 95px;
 }
 
 h1 {
@@ -117,7 +121,7 @@ ul {
 
 }
 
-div {
+.list {
     border: 2px solid black;
 }
 
