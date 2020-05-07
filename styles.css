@@ -21,10 +21,28 @@ a:hover {
 }
 
 span {
-    color: purple;
-    font-weight: bolder;
+  color: purple;
+  font-weight: bolder;
 }
 
 .boxes {
-    
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20pt;
+  margin-left: 20pt;
+  padding: 1em;
+  border: 5px solid purple;
+  width: 30em;
+}
+
+#box1 {
+  background-color: rgb(130, 110, 92);
+}
+
+#box2 {
+  background-color: darkolivegreen;
+}
+
+#boxN {
+  background-color: lightblue;
 }
