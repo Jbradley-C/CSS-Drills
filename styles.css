@@ -1,0 +1,30 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: lightgray;
+}
+
+h2,
+p,
+.readme-wrapper {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: greenyellow;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+span {
+    color: purple;
+    font-weight: bolder;
+}
+
+.boxes {
+    
+}
